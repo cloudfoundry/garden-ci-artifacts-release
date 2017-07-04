@@ -1,0 +1,6 @@
+---
+name: fake_runtime_plugin
+
+files:
+  - exiter.ps1
+  - fake_runtime_plugin/fake_runtime_plugin.exe

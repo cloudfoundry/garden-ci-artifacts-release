@@ -1,0 +1,13 @@
+. ./exiter.ps1
+
+$ErrorActionPreference = "Stop";
+trap { $host.SetShouldExit(1) }
+
+$BOSH_INSTALL_TARGET = Resolve-Path "${env:BOSH_INSTALL_TARGET}"
+
+COPY "${PWD}\fake_runtime_plugin\fake_runtime_plugin.exe" "${BOSH_INSTALL_TARGET}\fake_runtime_plugin.exe"
+if ($LASTEXITCODE -ge 8) {
+    Write-Error "COPY ${PWD}\fake_runtime_plugin\fake_runtime_plugin.exe ${BOSH_INSTALL_TARGET}\fake_runtime_plugin.exe"
+}
+
+Exit 0

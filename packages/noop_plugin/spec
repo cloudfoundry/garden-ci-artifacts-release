@@ -1,0 +1,6 @@
+---
+name: noop_plugin
+
+files:
+  - exiter.ps1
+  - noop_plugin/noop_plugin.exe

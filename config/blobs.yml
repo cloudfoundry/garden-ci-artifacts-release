@@ -1,0 +1,9 @@
+---
+fake_runtime_plugin/fake_runtime_plugin.exe:
+  object_id: 602cb86b-34f5-46a2-af81-cfa3e516e120
+  sha: eba4e9a6e49abf78a0830945847475eb6d9eba40
+  size: 7413760
+noop_plugin/noop_plugin.exe:
+  object_id: b8199173-e848-46c3-b4b0-ffa85e6910fa
+  sha: 831664ecc1a528aa5b2286becf42c2c9dd280863
+  size: 1640960

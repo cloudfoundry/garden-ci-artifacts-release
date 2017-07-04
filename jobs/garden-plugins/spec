@@ -1,0 +1,8 @@
+---
+name: garden-plugins
+
+packages:
+- noop_plugin
+- fake_runtime_plugin
+
+properties: {}
