@@ -1,5 +1,5 @@
 ---
-final_name: garden-ci-artefacts
+final_name: garden-ci-artifacts
 blobstore:
   provider: s3
   options:
